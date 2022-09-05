@@ -1,3 +1,19 @@
+import ReactDOM from 'react-dom';
+import App from './App'
+
+
+// const painting= paintings[1];
+
+
+
+{/*  */}
+
+ReactDOM.render(<App />,
+    document.querySelector('#root')
+);
+
+
+//=====================================
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
 // import './index.css';
