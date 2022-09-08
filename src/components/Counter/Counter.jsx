@@ -1,7 +1,8 @@
 import React from 'react';
 import Controls from './Controls';
 import Value from './Value';
-import './Counter.css';
+// import './Counter.css';
+import { StyledCounter } from './Counter.styled';
 
 class Counter extends React.Component {
   static defaultProps = {
@@ -26,14 +27,14 @@ class Counter extends React.Component {
 
   render() {
     return (
-      <div className="Counter">
+      <StyledCounter>
         <Value value={this.state.value} />
 
         <Controls
           onIncrement={this.handleIncrement}
           onDecrement={this.handleDecrement}
         />
-      </div>
+      </StyledCounter>
     );
   }
 }
