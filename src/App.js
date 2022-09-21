@@ -3,7 +3,8 @@
 // import Section from './components/Section/Section';
 // import Counter from './components/Counter/Counter';
 // import Menu from './components/Menu/Menu';
-import Books from './components/Books/Books';
+// import Books from './components/Books/Books';
+import Posts from './components/Post/Post';
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
         <Counter />
       </Section>
       <Menu/> */}
-      <Books />
+      {/* <Books /> */}
+      <Posts />
     </div>
   );
 }
